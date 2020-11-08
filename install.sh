@@ -1,5 +1,5 @@
 #!/bin/bash
-# Title: ManjaroBloater
+# Title: Manjaro Bloater
 # Author: Elfry <elfry.dev28@gmail.com>
 # Last Edited: 20201108
 
