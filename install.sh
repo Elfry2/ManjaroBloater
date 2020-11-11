@@ -102,7 +102,7 @@ if [ "$pacman_packages_install_tasks_enabled" = true ]; then
 	do sudo pacman -S $i --noconfirm --needed;
 	done
 	sudo pacman -Syyu --noconfirm
-	sudo pacman -R $(pacman -Qdtq) --noconfirm
+	sudo pacman -Rns $(pacman -Qtdq) --noconfirm
 	sudo pacman -Scc --noconfirm
 fi
 
