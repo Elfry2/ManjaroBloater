@@ -91,7 +91,7 @@ if [ "$pacman_packages_remove_tasks_enabled" = true ]; then
 	for i in ${pacman_packages_to_remove[*]}
 	do sudo pacman -R $i --noconfirm;
 	done
-	sudo pacman -R $(pacman -Qdtq) --noconfirm
+	sudo pacman -Rns $(pacman -Qtdq) --noconfirm
 	sudo pacman -Scc --noconfirm
 fi
 
