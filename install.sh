@@ -73,6 +73,7 @@ snap_packages_to_install=(
 
 aur_packages_to_install=(
 	https://aur.archlinux.org/ttf-ms-fonts.git
+	https://aur.archlinux.org/ulauncher.git
 	https://aur.archlinux.org/dropbox.git
 	https://aur.archlinux.org/qogir-gtk-theme.git
 	https://aur.archlinux.org/kvantum-theme-qogir-git.git
