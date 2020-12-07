@@ -1,17 +1,19 @@
 #!/bin/bash
 # Title: Manjaro Bloater
 # Author: Elfry <elfry.dev28@gmail.com>
-# Last Edited: 20201108
+# Last Edited: 20201208
+
+# Optimised for Manjaro 20.2 GNOME Edition
 
 # Variables
 pacman_packages_remove_tasks_enabled=true
 pacman_packages_install_tasks_enabled=true
 flatpak_repositories_install_tasks_enabled=true
 flatpak_packages_install_tasks_enabled=true
-snap_packages_install_tasks_enabled=true
+#snap_packages_install_tasks_enabled=true
 aur_packages_install_tasks_enabled=true
 public_keys_install_tasks_enabled=true
-grub_theme_install_task_enabled=true
+#grub_theme_install_task_enabled=true
 nonfree_drivers_install_task_enabled=true
 wallpaper_download_task_enabled=true
 wallpaper_storage_directory=/usr/share/backgrounds
@@ -28,7 +30,6 @@ pacman_packages_to_install=(
 	net-tools
 	git
 	vim
-	mousepad
 	ranger
 	celluloid
 	neofetch
@@ -42,18 +43,18 @@ pacman_packages_to_install=(
 	atril
 	yay
 	flatpak
-	snapd
+#	snapd
 	preload
-	qbittorrent
+	transmission-gtk
 	uget
 	warpinator
-	kdeconnect
+#	kdeconnect
 	gtk-engine-murrine
 	gtk-engines
 	matcha-gtk-theme
 	papirus-icon-theme
 	wine
-#	gnome-shell-extension-gsconnect
+	gnome-shell-extension-gsconnect
 #	kde-gtk-config
 )
 
@@ -73,7 +74,7 @@ snap_packages_to_install=(
 
 aur_packages_to_install=(
 	https://aur.archlinux.org/ttf-ms-fonts.git
-	https://aur.archlinux.org/ulauncher.git
+#	https://aur.archlinux.org/ulauncher.git
 	https://aur.archlinux.org/dropbox.git
 	https://aur.archlinux.org/qogir-gtk-theme.git
 	https://aur.archlinux.org/kvantum-theme-qogir-git.git
@@ -154,7 +155,7 @@ if [ "$aur_packages_install_tasks_enabled" = true ]; then
 		sudo git clone $i $temporary_storage_directory
 		sudo chmod 777 $temporary_storage_directory
 		cd $temporary_storage_directory
-		makepkg -si
+		makepkg -si --noconfirm
 		cd ..
 	done
 fi
