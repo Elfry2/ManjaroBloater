@@ -56,6 +56,8 @@ pacman_packages_to_install=(
 	wine
 	gnome-shell-extension-gsconnect
 #	kde-gtk-config
+	chromium
+	webapp-manager
 )
 
 flatpak_repositories_to_install=(
@@ -98,6 +100,7 @@ if [ "$pacman_packages_remove_tasks_enabled" = true ]; then
 fi
 
 if [ "$pacman_packages_install_tasks_enabled" = true ]; then
+	sudo pacman -Sy --noconfirm
 	sudo pacman-mirrors --fasttrack
 	sudo pacman -Syyu --noconfirm
 	for i in ${pacman_packages_to_install[*]}
