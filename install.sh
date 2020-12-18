@@ -53,7 +53,7 @@ pacman_packages_to_install=(
 	gtk-engines
 	matcha-gtk-theme
 	papirus-icon-theme
-	winetricks
+	wine
 	gnome-shell-extension-gsconnect
 #	kde-gtk-config
 )
