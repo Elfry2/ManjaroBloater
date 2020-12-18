@@ -1,7 +1,7 @@
 #!/bin/bash
 # Title: Manjaro Bloater
 # Author: Elfry <elfry.dev28@gmail.com>
-# Last Edited: 20201208
+# Last Edited: 20201218
 
 # Optimised for Manjaro 20.2 GNOME Edition
 
@@ -53,11 +53,9 @@ pacman_packages_to_install=(
 	gtk-engines
 	matcha-gtk-theme
 	papirus-icon-theme
-	wine
+	lutris
 	gnome-shell-extension-gsconnect
 #	kde-gtk-config
-	chromium
-	webapp-manager
 )
 
 flatpak_repositories_to_install=(
@@ -76,7 +74,7 @@ snap_packages_to_install=(
 
 aur_packages_to_install=(
 	https://aur.archlinux.org/ttf-ms-fonts.git
-#	https://aur.archlinux.org/ulauncher.git
+	https://aur.archlinux.org/ulauncher.git
 	https://aur.archlinux.org/dropbox.git
 	https://aur.archlinux.org/qogir-gtk-theme.git
 	https://aur.archlinux.org/kvantum-theme-qogir-git.git
