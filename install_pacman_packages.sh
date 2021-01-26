@@ -31,9 +31,6 @@ packages=(
 	wine
 	gnome-shell-extension-gsconnect
 #	kde-gtk-config
-	materia-gtk-theme
-	materia-kde
-	kvantum-theme-materia
 	papirus-icon-theme
 )
 
