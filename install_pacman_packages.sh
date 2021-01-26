@@ -31,6 +31,8 @@ packages=(
 	wine
 	gnome-shell-extension-gsconnect
 #	kde-gtk-config
+	materia-gtk-theme
+	papirus-icon-theme
 )
 
 sudo pacman -Sy --noconfirm
