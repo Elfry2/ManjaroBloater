@@ -33,6 +33,8 @@ packages=(
 #	kde-gtk-config
 	materia-gtk-theme
 	papirus-icon-theme
+	materia-kde
+	kvantum-theme-materia
 )
 
 sudo pacman -Sy --noconfirm
