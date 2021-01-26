@@ -32,9 +32,9 @@ packages=(
 	gnome-shell-extension-gsconnect
 #	kde-gtk-config
 	materia-gtk-theme
-	papirus-icon-theme
 	materia-kde
 	kvantum-theme-materia
+	papirus-icon-theme
 )
 
 sudo pacman -Sy --noconfirm
