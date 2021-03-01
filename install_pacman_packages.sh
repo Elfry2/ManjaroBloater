@@ -32,9 +32,6 @@ packages=(
 	wine
 #	gnome-shell-extension-gsconnect
 #	kde-gtk-config
-	firefox
-	gnome-calculator
-	viewnior
 )
 
 sudo pacman -Sy --noconfirm
