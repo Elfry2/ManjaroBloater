@@ -34,6 +34,7 @@ packages=(
 #	kde-gtk-config
 	firefox
 	gnome-calculator
+	viewnior
 )
 
 sudo pacman -Sy --noconfirm
