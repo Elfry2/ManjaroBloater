@@ -5,6 +5,7 @@ packages=(
 	net-tools
 	git
 	vim
+	gedit
 	ranger
 	celluloid
 	neofetch
@@ -22,16 +23,17 @@ packages=(
 	preload
 	transmission-gtk
 	uget
-	warpinator
-#	kdeconnect
+#	warpinator
+	kdeconnect
 	gtk-engine-murrine
 	gtk-engines
 	matcha-gtk-theme
 	papirus-icon-theme
 	wine
-	gnome-shell-extension-gsconnect
+#	gnome-shell-extension-gsconnect
 #	kde-gtk-config
-	papirus-icon-theme
+	firefox
+	gnome-calculator
 )
 
 sudo pacman -Sy --noconfirm
