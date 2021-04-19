@@ -13,6 +13,7 @@ packages=(
 	gnome-disks
 	gnome-disk-utility
 	gnome-system-monitor
+	libreoffice-still
 #	libreoffice-fresh
 	libindicator-gtk3
 	nodejs
