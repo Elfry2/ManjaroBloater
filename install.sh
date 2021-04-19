@@ -12,8 +12,7 @@ scripts=(
   install_flatpak_packages.sh
   install_public_keys.sh
   install_aur_packages.sh
-  use_adwaita_theme_on_xfce.sh
-  use_papirus_light_icon_theme_on_xfce.sh
+  install_wallpapers.sh
 )
 
 for i in "${scripts[@]}"

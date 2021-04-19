@@ -13,25 +13,29 @@ packages=(
 	gnome-disks
 	gnome-disk-utility
 	gnome-system-monitor
-	libreoffice-fresh
+#	libreoffice-fresh
 	libindicator-gtk3
 	nodejs
 	atril
 	yay
 	flatpak
 #	snapd
-	preload
+#	preload
 	transmission-gtk
 	uget
-#	warpinator
-	kdeconnect
+	warpinator
+#	kdeconnect
 	gtk-engine-murrine
 	gtk-engines
 	matcha-gtk-theme
 	papirus-icon-theme
 	wine
-#	gnome-shell-extension-gsconnect
+	gnome-shell-extension-gsconnect
 #	kde-gtk-config
+	brave
+	webapp-manager
+	telegram-desktop
+	atom
 )
 
 sudo pacman -Sy --noconfirm

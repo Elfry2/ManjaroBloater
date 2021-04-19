@@ -5,6 +5,7 @@ packages=(
 	https://aur.archlinux.org/ttf-ms-fonts.git
 	https://aur.archlinux.org/ulauncher.git
 	https://aur.archlinux.org/dropbox.git
+	https://aur.archlinux.org/spotify.git
 	https://aur.archlinux.org/qogir-gtk-theme.git
 	https://aur.archlinux.org/kvantum-theme-qogir-git.git
 	https://aur.archlinux.org/qogir-icon-theme.git

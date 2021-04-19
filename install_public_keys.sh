@@ -2,7 +2,7 @@
 
 keys=(
 	https://linux.dropbox.com/fedora/rpm-public-key.asc
-	https://download.spotify.com/debian/pubkey.gpg
+	https://download.spotify.com/debian/pubkey_0D811D58.gpg
 )
 
 temporary_storage_directory=elfry_tmp

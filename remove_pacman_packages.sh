@@ -1,8 +1,8 @@
 #!/bin/bash
 
 packages=(
-	libreoffice
-	libreoffice-still
+#	libreoffice
+#	libreoffice-still
 )
 
 for i in "${packages[@]}"
