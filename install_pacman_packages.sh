@@ -36,6 +36,7 @@ packages=(
 	brave
 	webapp-manager
 	telegram-desktop
+	whatsapp-for-linux
 	atom
 )
 
