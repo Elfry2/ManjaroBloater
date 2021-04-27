@@ -29,6 +29,8 @@ packages=(
 	gtk-engine-murrine
 	gtk-engines
 	matcha-gtk-theme
+	kvantum-theme-matchama
+	arc-gtk-theme
 	papirus-icon-theme
 	wine
 	gnome-shell-extension-gsconnect
@@ -36,8 +38,10 @@ packages=(
 	brave
 	webapp-manager
 	telegram-desktop
-	whatsapp-for-linux
 	atom
+	adwaita-maia
+	adwaita-icon-theme
+	adwaita-qt
 )
 
 sudo pacman -Sy --noconfirm
