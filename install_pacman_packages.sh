@@ -17,7 +17,7 @@ packages=(
 #	libreoffice-fresh
 	libindicator-gtk3
 	nodejs
-	atril
+	foliate
 	yay
 	flatpak
 #	snapd
